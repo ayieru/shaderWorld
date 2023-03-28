@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="shaderAtmosPS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="shaderAtmosVS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="shaderFieldPS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="shaderFieldVS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="shaderNoise.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="shaderSkyPS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="shaderSkyVS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="shaderWaterPS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="shaderWaterVS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="atmos.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="field.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="sky.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="water.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="atmos.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="game_object.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="sky.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="water.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>h</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{4050401f-f4d0-43ef-92e3-401ba7310b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hlsl">
+      <UniqueIdentifier>{8f9a9ecc-6bcc-4476-8ba7-2f5c3c7c5e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="h">
+      <UniqueIdentifier>{58603d3c-a9f8-492a-b238-628a1f72513f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
